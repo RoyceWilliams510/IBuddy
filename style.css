@@ -1,5 +1,84 @@
 #exit{
     position: fixed;
-    left:80%;
+    left:85%;
     bottom:95%;
+}
+#checkReq{
+
+}
+#studentEditor{
+    text-align:left;
+    position:absolute;
+    top: 20%;
+    left: 40%;
+}
+#studentCreator{
+    position:absolute;
+    top: 15%;
+    left: 40%;
+}
+#body{
+    font-family: "georgia", "serif";
+    font-size:18px;
+}
+.bigButtons{
+    font-family:"georgia", "serif";
+    height: 24px;
+    font-size: 12px;
+    background-color:lavender;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#welcome{
+    font-size:36px;
+    font-family: "georgia", "serif";
+    text-align: center;
+}
+#juniorYear{
+    position: relative;
+    text-align: center;
+    background-color:lightgoldenrodyellow;
+    font-size:20px;
+    font-family: "georgia", "serif"
+
+}
+#seniorYear{
+    position: relative;
+    text-align: center;
+    background-color:orange;
+    font-size:20px;
+    font-family: "georgia", "serif"
+
+}
+.removers{
+    font-family:"georgia", "serif";
+    height: 24px;
+    font-size: 12px;
+    background-color:#FB6767;
+    border-radius: 10px;
+    border-color:#FB6767;
+}
+#studentName{
+    height:18px;
+    font-size:12px;
+    length:180px;
+}
+.catagory{
+    position:relative;
+    margin-top:20px;
+}
+#mission{
+    text-align: center;
+}
+#transporter{
+    position:fixed;
+    right:85%;
+    bottom:95%;
+}
+#coreClasses{
+    position: relative;
+    text-align: center;
+    background-color:#b3d9ff;
+    font-size:20px;
+    font-family: "georgia", "serif"
+
 }

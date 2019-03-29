@@ -5,46 +5,25 @@
     <title>IBuddy</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src = "script.js"></script>
+    <script src ="courses.js"></script>
     <link rel ="stylesheet" href ="style.css">
 
 </head>
 <body>
+<p>
 
 <div id="welcome"><center>Ibuddy</center></div>
 <div id ="studentCreator">
-
-    <input type="text" id="studentName" placeholder="Name">
-    <select id="studentGrade">
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-    </select>
-    <button id="go">Click ME</button>
+    <input type="text" id="studentName" placeholder="What's your name?">
+    <button id="go" class="bigButtons">Submit</button>
 </div>
-
-<div id ="studentEditor" >
-    <p><br>Add a class: </br>
-        <br>Class Name: <input type="text" id="className"></br>
-        <br>Class Level: <select id="level">
-        <option value="SL">SL</option>
-        <option value="HL">HL</option>
-        </select></br>
-        <br>Is this class a language course: <select id="lang">
-            <option value="false">no</option>
-            <option value="true">yes</option>
-        </select>
-        <br>Year taking the class: <select id="year">
-            <option value="11">11th</option>
-            <option value="12">12th</option>
-        </select></br>
-        <br><button id="submit">Add Class</button></br></p>
-    <br> Organize Schedule <button id="seeClasses">See Classes</button></br>
+<div id="mission"></div>
+<div id ="studentEditor" ></div>
+<div id ="backtoclasses">
+    <button id="exit" class ="bigButtons" onclick ="goBack()">Go back to classes</button>
 </div>
-
-<div id ="classesSubmitted"></div>
-<div id ="scheduleOrganizer"></div>
-<div id ="back to classes">
-    <button id="exit" onclick ="goBack()">Go back to classes</button>
+<div id="transporter">
+    <button id ="showClasses" class="bigButtons" onclick="organizeSchedule()">See Your Classes</button>
 </div>
 </body>
 </html>
